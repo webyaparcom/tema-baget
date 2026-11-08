@@ -1,0 +1,40 @@
+{
+  "id": "a2mgpas8o3",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Hamur işi, tatlı ve sıcak",
+    "en": "Pastry, sweet and hot",
+    "ar": "مخبوزات وحلويات ومخبوزات ساخنة"
+  },
+  "keyword": {
+    "tr": "Menü",
+    "en": "Menu",
+    "ar": "القائمة"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "fm05u8",
+      "mhxce0"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:58:30.123Z",
+  "update": "2026-11-05T23:44:27.857Z"
+}
