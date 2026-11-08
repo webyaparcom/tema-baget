@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Sıcak ekmek ve tatlı fırını; görseller temsilîdir.",
+    "en": "Hot bread and pastry oven; images are representative.",
+    "ar": "فرن خبز وحلا ساخن؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "baget, ekmek fırını, hamur işi",
+    "en": "baguette, bread oven, pastry",
+    "ar": "باجت، فرن خبز، منتجات مخبز"
+  },
+  "category": "Kurumsal",
+  "name": "Altın Baget",
+  "domain": "baget.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "nunito-sans",
+    "heading": "playfair-display",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#AF6019",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "11px",
+    "--mx-radius-md": "18px",
+    "--mx-radius-lg": "25px",
+    "--mx-radius-xl": "34px"
+  },
+  "icon": "icon.png"
+}
