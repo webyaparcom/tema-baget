@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Sipariş ver",
+          "en": "Order",
+          "ar": "اطلب الآن"
         },
         "cta_url": "teklif-al"
       },
@@ -1522,7 +1533,7 @@
         "hiza": "orta",
         "yukseklik": 82,
         "max": "1200px",
-        "img": "gida-hero-bahce.webp",
+        "img": "restoran-mutfak-sef.webp",
         "video": "",
         "poster": "",
         "alt": "Altın Baget",
@@ -1534,18 +1545,18 @@
         "radius": "16px",
         "eyebrow": {
           "tr": "Taze fırın",
-          "en": "Fresh oven",
-          "ar": "فرن طازج"
+          "en": "Fresh from the oven",
+          "ar": "مخبز طازج"
         },
         "title": {
-          "tr": "Her sabah taze ekmek",
-          "en": "Fresh bread every morning",
-          "ar": "خبز طازج كل صباح"
+          "tr": "Her sabah sıcak ekmek",
+          "en": "Warm bread every morning",
+          "ar": "خبز دافئ كل صباح"
         },
         "metin": {
-          "tr": "Altın Baget, sıcak ekmek ve tatlı sunar. Görseller temsilidir; fiyat ve menü verileri kurgusaldır.",
-          "en": "Altın Baget offers hot bread and pastry. Images are representative and the price and menu data are fictional.",
-          "ar": "يقدم ألتين باجت خبزًا وحلا ساخنًا. الصور تمثيلية وبيانات الأسعار والقائمة افتراضية."
+          "tr": "Altın Baget; ekmek, baklava ve pasta çeşitlerini sabahın erken saatlerinden itibaren sıcak sunar. Görseller temsilîdir; fiyat ve menü bilgileri kurgusaldır.",
+          "en": "Altın Baget serves its breads, baklava and pastries warm from the early hours of the morning. Images are representative; prices and menu details are fictional.",
+          "ar": "تقدّم ألتين باغيت أنواع الخبز والبقلاوة والحلويات دافئة منذ ساعات الصباح الأولى. الصور تمثيلية وبيانات الأسعار والقائمة افتراضية."
         },
         "cta1": {
           "tr": "Menüyü gör",
@@ -1556,7 +1567,7 @@
         "cta2": {
           "tr": "İletişim",
           "en": "Contact",
-          "ar": "اتصل"
+          "ar": "اتصل بنا"
         },
         "cta2_url": "iletisim",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Neler pişiriyoruz?",
-          "en": "What are we baking?",
-          "ar": "ماذا نصنع?"
+          "tr": "Fırından rakamlar",
+          "en": "Numbers from the bakery",
+          "ar": "أرقام من المخبز"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1615,16 +1626,16 @@
         {
           "deger": 6,
           "sonek": "",
-          "ikon": "baguette",
+          "ikon": "bakery_dining",
           "etiket": {
-            "tr": "Ekmek tipi",
-            "en": "Bread types",
+            "tr": "Ekmek çeşidi",
+            "en": "Bread varieties",
             "ar": "أنواع الخبز"
           },
           "aciklama": {
-            "tr": "Günlük",
-            "en": "Daily",
-            "ar": "يومي"
+            "tr": "Her gün",
+            "en": "Every day",
+            "ar": "كل يوم"
           }
         },
         {
@@ -1632,14 +1643,14 @@
           "sonek": "",
           "ikon": "cake",
           "etiket": {
-            "tr": "Tatlı çeşit",
-            "en": "Pastry varieties",
-            "ar": "أصناف الحلوى"
+            "tr": "Tatlı çeşidi",
+            "en": "Sweet varieties",
+            "ar": "أنواع الحلويات"
           },
           "aciklama": {
             "tr": "Haftalık",
             "en": "Weekly",
-            "ar": "أسبوعي"
+            "ar": "أسبوعيًا"
           }
         },
         {
@@ -1647,14 +1658,14 @@
           "sonek": "+",
           "ikon": "shopping_basket",
           "etiket": {
-            "tr": "Günlük servis",
-            "en": "Daily services",
-            "ar": "خدمات يومية"
+            "tr": "Günlük müşteri",
+            "en": "Daily customers",
+            "ar": "زبائن يوميًا"
           },
           "aciklama": {
-            "tr": "Tahmini",
-            "en": "Estimated",
-            "ar": "تقديري"
+            "tr": "Tahmini (kurgusal değer)",
+            "en": "Estimated (fictional figure)",
+            "ar": "تقديري (رقم افتراضي)"
           }
         },
         {
@@ -1662,14 +1673,14 @@
           "sonek": "",
           "ikon": "workspace_premium",
           "etiket": {
-            "tr": "Yıllık fırın",
-            "en": "Years of oven",
-            "ar": "سنوات الفرن"
+            "tr": "Yıllık deneyim",
+            "en": "Years of experience",
+            "ar": "سنوات الخبرة"
           },
           "aciklama": {
-            "tr": "2012",
-            "en": "2012",
-            "ar": "٢٠١٢"
+            "tr": "2012’den beri",
+            "en": "Since 2012",
+            "ar": "منذ عام ٢٠١٢"
           }
         }
       ],
@@ -1702,52 +1713,52 @@
         "title": {
           "tr": "Neler pişiriyoruz?",
           "en": "What are we baking?",
-          "ar": "ماذا نصنع?"
+          "ar": "ماذا نخبز؟"
         },
         "description": {
-          "tr": "Hamur işi, tatlı ve sıcak",
-          "en": "Pastry, sweet and hot",
-          "ar": "مخبوزات وحلويات ومخبوزات ساخنة"
+          "tr": "Ekmek, tatlı ve sıcak servis.",
+          "en": "Bread, pastries and hot service.",
+          "ar": "خبز وحلويات وخدمة ساخنة."
         }
       },
       "data": [
         {
-          "icon": "baguette",
+          "icon": "bakery_dining",
           "name": {
-            "tr": "Bagel ve ekmek",
-            "en": "Bagel and bread",
-            "ar": "باغل وخبز"
+            "tr": "Ekmek çeşitleri",
+            "en": "Breads",
+            "ar": "أنواع الخبز"
           },
           "description": {
-            "tr": "Sıcak, günler taze; 6 çeşit.",
-            "en": "Hot, fresh daily; 6 varieties.",
-            "ar": "ساخن، طازج يوميًا؛ ستة أصناف."
+            "tr": "Baget, köy ekmeği ve çavdar gibi günlük taze çeşitler.",
+            "en": "Daily fresh varieties such as baguette, village loaf and rye.",
+            "ar": "أنواع طازجة يوميًا مثل الباغيت وخبز القرية وخبز الجاودار."
           }
         },
         {
           "icon": "cake",
           "name": {
-            "tr": "Tatlı ve pasta",
-            "en": "Pastry and cake",
-            "ar": "حلويات وكعك"
+            "tr": "Pasta ve tatlı",
+            "en": "Cakes and sweets",
+            "ar": "كعك وحلويات"
           },
           "description": {
-            "tr": "Baklava içeren günlük tatlılar.",
-            "en": "Daily pastries including baklava.",
-            "ar": "حلويات يومية تشمل البقلاوة."
+            "tr": "Baklava dahil günlük tatlılar ve pastalar.",
+            "en": "Daily sweets and cakes, including baklava.",
+            "ar": "حلويات وكعك يوميًا، بما فيها البقلاوة."
           }
         },
         {
-          "icon": "restaurant",
+          "icon": "free_breakfast",
           "name": {
-            "tr": "Sıcak servis",
-            "en": "Hot service",
-            "ar": "خدمة ساخنة"
+            "tr": "Kahvaltı servisi",
+            "en": "Breakfast service",
+            "ar": "خدمة الفطور"
           },
           "description": {
-            "tr": "Sabah kahvaltı servisi.",
-            "en": "Morning breakfast service.",
-            "ar": "خدمة فطور صباحية."
+            "tr": "Sabah saatlerinde sıcak kahvaltı tabakları.",
+            "en": "Hot breakfast plates in the morning.",
+            "ar": "أطباق فطور ساخنة في الصباح."
           }
         },
         {
@@ -1758,7 +1769,7 @@
             "ar": "ركن القهوة"
           },
           "description": {
-            "tr": "Türk kahvesi ve sıcak içecek.",
+            "tr": "Türk kahvesi ve sıcak içecekler.",
             "en": "Turkish coffee and hot drinks.",
             "ar": "قهوة تركية ومشروبات ساخنة."
           }
@@ -1767,26 +1778,26 @@
           "icon": "shopping_basket",
           "name": {
             "tr": "Toplu sipariş",
-            "en": "Bulk order",
-            "ar": "طلب جماعي"
+            "en": "Bulk orders",
+            "ar": "طلبات جماعية"
           },
           "description": {
-            "tr": "Etkinlik ve firma için toplu.",
-            "en": "Bulk for events and firms.",
-            "ar": "طلبات جماعية للفعاليات والشركات."
+            "tr": "Etkinlik ve işyerleri için toplu sipariş.",
+            "en": "Bulk orders for events and workplaces.",
+            "ar": "طلبات جماعية للفعاليات وأماكن العمل."
           }
         },
         {
           "icon": "schedule",
           "name": {
-            "tr": "Erken teslim",
-            "en": "Early delivery",
-            "ar": "تسليم مبكر"
+            "tr": "Erken servis",
+            "en": "Early service",
+            "ar": "خدمة مبكرة"
           },
           "description": {
-            "tr": "06:00ten itibaren sıcak teslimat.",
-            "en": "Hot service from 06:00.",
-            "ar": "خدمة ساخنة بدءًا من 06:00."
+            "tr": "Sabah 06:00’dan itibaren sıcak ürünler.",
+            "en": "Hot products from 06:00 in the morning.",
+            "ar": "منتجات ساخنة اعتبارًا من الساعة 06:00 صباحًا."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Fırının günü",
+          "en": "A day at the bakery",
+          "ar": "يوم في المخبز"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Geceden sabaha dört adım",
+          "en": "Four steps from night to morning",
+          "ar": "أربع خطوات من الليل إلى الصباح"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Her gün aynı düzen.",
+          "en": "The same routine every day.",
+          "ar": "الروتين نفسه كل يوم."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,53 +1847,53 @@
         {
           "year": "01",
           "title": {
-            "tr": "Sipariş",
-            "en": "Order",
-            "ar": "الطلب"
+            "tr": "Hamur hazırlığı",
+            "en": "Dough preparation",
+            "ar": "تحضير العجين"
           },
           "text": {
-            "tr": "Menüden seçim veya toplu sipariş.",
-            "en": "Choice from the menu or a bulk order.",
-            "ar": "اختيار من القائمة أو طلب جماعي."
+            "tr": "Hamur gece yoğrulur ve dinlendirilir.",
+            "en": "The dough is kneaded and rested overnight.",
+            "ar": "يُعجن العجين ويُترك ليرتاح خلال الليل."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Hazırlık",
-            "en": "Preparation",
-            "ar": "التحضير"
+            "tr": "Fırına verme",
+            "en": "Into the oven",
+            "ar": "الخَبز"
           },
           "text": {
-            "tr": "Hamur ve malzeme hazırlık.",
-            "en": "Dough and ingredient preparation.",
-            "ar": "تحضير العجين والمكونات."
+            "tr": "Ekmekler sabaha karşı fırında pişer.",
+            "en": "The breads are baked in the oven before dawn.",
+            "ar": "يُخبز الخبز في الفرن قبيل الفجر."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Pişirme",
-            "en": "Baking",
-            "ar": "الخبز"
+            "tr": "Tezgâha çıkış",
+            "en": "On the counter",
+            "ar": "العرض على الطاولة"
           },
           "text": {
-            "tr": "Fırında pişirme; sıcaklıklar.",
-            "en": "Baking in the oven; temperatures.",
-            "ar": "خبز في الفرن؛ درجات الحرارة."
+            "tr": "Sıcak ürünler 06:00’da tezgâha çıkar.",
+            "en": "Warm products reach the counter at 06:00.",
+            "ar": "تُعرض المنتجات الدافئة على الطاولة في الساعة 06:00."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Servis",
-            "en": "Service",
-            "ar": "الخدمة"
+            "tr": "Sipariş ve teslim",
+            "en": "Orders and delivery",
+            "ar": "الطلبات والتسليم"
           },
           "text": {
-            "tr": "Tek tek veya toplu servis.",
-            "en": "Individual or bulk service.",
-            "ar": "خدمة فردية أو جماعية."
+            "tr": "Toplu siparişler önceden hazırlanıp teslim edilir.",
+            "en": "Bulk orders are prepared in advance and handed over.",
+            "ar": "تُجهَّز الطلبات الجماعية مسبقًا وتُسلَّم."
           }
         }
       ],
@@ -1911,19 +1922,19 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Fırın ekibi",
+          "en": "Bakery team",
+          "ar": "فريق المخبز"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Fırının ustaları",
+          "en": "The people behind the oven",
+          "ar": "القائمون على الفرن"
         },
         "description": {
-          "tr": "Kurgusal demo profiller.",
-          "en": "Fictional demo profiles.",
-          "ar": "ملفات تجريبية افتراضية."
+          "tr": "Kurgusal örnek kadro.",
+          "en": "A fictional sample team.",
+          "ar": "فريق افتراضي للعرض."
         },
         "accentText": "#ffffff",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
@@ -1932,13 +1943,13 @@
         {
           "name": "Nuray Demirci",
           "role": {
-            "tr": "Şef fırıncısı",
-            "en": "Chief baker",
-            "ar": "خبّاز كبير"
+            "tr": "Başfırıncı",
+            "en": "Head baker",
+            "ar": "كبيرة الخبازين"
           },
           "bio": {
-            "tr": "20 yıl fırın.",
-            "en": "20 years of oven work.",
+            "tr": "20 yıllık fırıncılık.",
+            "en": "20 years of baking.",
             "ar": "٢٠ عامًا في الخبز."
           },
           "img": ""
@@ -1946,9 +1957,9 @@
         {
           "name": "Serdar Alioğlu",
           "role": {
-            "tr": "Tatlı şefı",
+            "tr": "Tatlı ustası",
             "en": "Pastry chef",
-            "ar": "شيف حلويات"
+            "ar": "شيف الحلويات"
           },
           "bio": {
             "tr": "Baklava ve pasta.",
@@ -1960,14 +1971,14 @@
         {
           "name": "Zehra Ak",
           "role": {
-            "tr": "Servis",
-            "en": "Service",
-            "ar": "خدمة"
+            "tr": "Servis sorumlusu",
+            "en": "Service lead",
+            "ar": "مسؤولة الخدمة"
           },
           "bio": {
-            "tr": "Kahvaltı ve sipariş.",
-            "en": "Breakfast and orders.",
-            "ar": "الفطور والطلبات."
+            "tr": "Kahvaltı ve toplu sipariş.",
+            "en": "Breakfast and bulk orders.",
+            "ar": "الفطور والطلبات الجماعية."
           },
           "img": ""
         }
@@ -2008,9 +2019,9 @@
           "ar": "ماذا يقول عملاؤنا؟"
         },
         "description": {
-          "tr": "Kurgusal demo yorumlar.",
-          "en": "Fictional demo reviews.",
-          "ar": "تقييمات تجريبية افتراضية."
+          "tr": "Kurgusal örnek yorumlar.",
+          "en": "Fictional sample reviews.",
+          "ar": "آراء افتراضية للعرض."
         },
         "accentText": "#ffffff",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
@@ -2019,16 +2030,16 @@
         {
           "name": "Hüseyin G.",
           "role": {
-            "tr": "Mahalleli",
-            "en": "Neighbour",
-            "ar": "جار"
+            "tr": "Mahalle sakini",
+            "en": "Neighbourhood resident",
+            "ar": "من سكان الحي"
           },
           "rating": 5,
           "img": "",
           "text": {
             "tr": "Her sabah ekmek çıkar; hep sıcak.",
-            "en": "I get bread every morning; always warm.",
-            "ar": "أحصل على الخبز كل صباح؛ دائمًا ساخن."
+            "en": "Bread comes out every morning, always warm.",
+            "ar": "يخرج الخبز كل صباح وهو دافئ دائمًا."
           }
         },
         {
@@ -2041,24 +2052,24 @@
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Baklava taze; fiyat uygun.",
-            "en": "Baklava is fresh; price is reasonable.",
-            "ar": "البقلاوة طازجة والسعر مناسب."
+            "tr": "Baklava taze, fiyatlar makul.",
+            "en": "The baklava is fresh and prices are reasonable.",
+            "ar": "البقلاوة طازجة والأسعار معقولة."
           }
         },
         {
           "name": "İbrahim Ş.",
           "role": {
-            "tr": "Firma",
-            "en": "Company",
-            "ar": "شركة"
+            "tr": "İşyeri müşterisi",
+            "en": "Business customer",
+            "ar": "عميل شركة"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Toplu sipariş zamanında geldi.",
-            "en": "Bulk order arrived on time.",
-            "ar": "وصل الطلب الجماعي في وقته."
+            "tr": "Toplu siparişimiz zamanında geldi.",
+            "en": "Our bulk order arrived on time.",
+            "ar": "وصل طلبنا الجماعي في موعده."
           }
         }
       ],
@@ -2103,19 +2114,19 @@
         "radius": "18px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Fırından",
+          "en": "From the oven",
+          "ar": "من الفرن"
         },
         "title": {
-          "tr": "Neler pişiriyoruz?",
-          "en": "What are we baking?",
-          "ar": "ماذا نصنع?"
+          "tr": "Tezgâhta neler var?",
+          "en": "What is on the counter?",
+          "ar": "ماذا على الطاولة؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metin ve rakamlar kurgusaldır.",
+          "en": "Images are representative; text and figures are fictional.",
+          "ar": "الصور تمثيلية والنصوص والأرقام افتراضية."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2126,33 +2137,14 @@
       "data": [
         {
           "baslik": {
-            "tr": "Bagel ve ekmek",
-            "en": "Bagel and bread",
-            "ar": "باغل وخبز"
+            "tr": "Ekmek çeşitleri",
+            "en": "Breads",
+            "ar": "أنواع الخبز"
           },
           "metin": {
-            "tr": "Sıcak, günler taze; 6 çeşit.",
-            "en": "Hot, fresh daily; 6 varieties.",
-            "ar": "ساخن، طازج يوميًا؛ ستة أصناف."
-          },
-          "img": "gida-urun-baklava.webp",
-          "alt": {
-            "tr": "Temsilî görsel",
-            "en": "Representative image",
-            "ar": "صورة تمثيلية"
-          },
-          "url": "hizmetler"
-        },
-        {
-          "baslik": {
-            "tr": "Tatlı ve pasta",
-            "en": "Pastry and cake",
-            "ar": "حلويات وكعك"
-          },
-          "metin": {
-            "tr": "Baklava içeren günlük tatlılar.",
-            "en": "Daily pastries including baklava.",
-            "ar": "حلويات يومية تشمل البقلاوة."
+            "tr": "Baget, köy ekmeği ve çavdar gibi günlük taze çeşitler.",
+            "en": "Daily fresh varieties such as baguette, village loaf and rye.",
+            "ar": "أنواع طازجة يوميًا مثل الباغيت وخبز القرية وخبز الجاودار."
           },
           "img": "gida-tarif-2.webp",
           "alt": {
@@ -2164,16 +2156,35 @@
         },
         {
           "baslik": {
-            "tr": "Sıcak servis",
-            "en": "Hot service",
-            "ar": "خدمة ساخنة"
+            "tr": "Pasta ve tatlı",
+            "en": "Cakes and sweets",
+            "ar": "كعك وحلويات"
           },
           "metin": {
-            "tr": "Sabah kahvaltı servisi.",
-            "en": "Morning breakfast service.",
-            "ar": "خدمة فطور صباحية."
+            "tr": "Baklava dahil günlük tatlılar ve pastalar.",
+            "en": "Daily sweets and cakes, including baklava.",
+            "ar": "حلويات وكعك يوميًا، بما فيها البقلاوة."
           },
-          "img": "gida-uretim-1.webp",
+          "img": "restoran-menu-baklava.webp",
+          "alt": {
+            "tr": "Temsilî görsel",
+            "en": "Representative image",
+            "ar": "صورة تمثيلية"
+          },
+          "url": "hizmetler"
+        },
+        {
+          "baslik": {
+            "tr": "Kahvaltı servisi",
+            "en": "Breakfast service",
+            "ar": "خدمة الفطور"
+          },
+          "metin": {
+            "tr": "Sabah saatlerinde sıcak kahvaltı tabakları.",
+            "en": "Hot breakfast plates in the morning.",
+            "ar": "أطباق فطور ساخنة في الصباح."
+          },
+          "img": "restoran-mekan-1.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,9 +2240,9 @@
         "radius": "18px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Toplu sipariş müşterilerimiz",
+          "en": "Our bulk-order customers",
+          "ar": "عملاء الطلبات الجماعية"
         },
         "description": {
           "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
@@ -2255,13 +2266,13 @@
           "name": "Demo Otel"
         },
         {
-          "name": "Demo Kurye"
+          "name": "Demo Kantin"
         },
         {
           "name": "Demo Market"
         },
         {
-          "name": "Demo Pastane"
+          "name": "Demo Catering"
         }
       ],
       "veri": {
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Toplu sipariş için ne kadar önceden haber vermeliyim?",
+            "en": "How far in advance should I place a bulk order?",
+            "ar": "قبل كم من الوقت يجب أن أقدّم الطلب الجماعي؟"
+          },
+          "answer": {
+            "tr": "En az bir gün önceden; büyük siparişlerde iki gün (kurgusal bilgi).",
+            "en": "At least one day ahead, or two days for large orders (fictional information).",
+            "ar": "قبل يوم واحد على الأقل، ويومين للطلبات الكبيرة (معلومات افتراضية)."
+          },
           "soru": {
-            "tr": "Ürünler sıcak mı teslim edilir?",
-            "en": "Are the products hot delivered?",
-            "ar": "هل تُسلَّم المنتجات ساخنة?"
+            "tr": "Toplu sipariş için ne kadar önceden haber vermeliyim?",
+            "en": "How far in advance should I place a bulk order?",
+            "ar": "قبل كم من الوقت يجب أن أقدّم الطلب الجماعي؟"
           },
           "cevap": {
-            "tr": "Fırın sonrası ilk saat içinde servis edilir (demo bilgi).",
-            "en": "Service is done within the first hour after the oven (demo info).",
-            "ar": "يخدم خلال الساعة الأولى بعد الفرن (معلومات تجريبية."
+            "tr": "En az bir gün önceden; büyük siparişlerde iki gün (kurgusal bilgi).",
+            "en": "At least one day ahead, or two days for large orders (fictional information).",
+            "ar": "قبل يوم واحد على الأقل، ويومين للطلبات الكبيرة (معلومات افتراضية)."
           }
         },
         {
+          "question": {
+            "tr": "Sıcak ekmek hangi saatlerde çıkar?",
+            "en": "When is the warm bread ready?",
+            "ar": "متى يكون الخبز الدافئ جاهزًا؟"
+          },
+          "answer": {
+            "tr": "Her sabah 06:00’dan itibaren, gün içinde de partiler halinde.",
+            "en": "From 06:00 every morning, and in batches through the day.",
+            "ar": "اعتبارًا من الساعة 06:00 كل صباح، وعلى دفعات خلال اليوم."
+          },
           "soru": {
-            "tr": "Toplu sipariş için önceden mi söylemeliyim?",
-            "en": "Should I say in advance for a bulk order?",
-            "ar": "يجب أن أخبر مسبقًا للطلب الجماعي?"
+            "tr": "Sıcak ekmek hangi saatlerde çıkar?",
+            "en": "When is the warm bread ready?",
+            "ar": "متى يكون الخبز الدافئ جاهزًا؟"
           },
           "cevap": {
-            "tr": "Evet; azami 1 gün önceden bildirme önerilir (demo).",
-            "en": "Yes; notification up to 1 day in advance is recommended (demo).",
-            "ar": "نعم؛ يُوصى بالإبلاغ قبل يوم واحد كحدٍّ أقصى (تجريبية."
+            "tr": "Her sabah 06:00’dan itibaren, gün içinde de partiler halinde.",
+            "en": "From 06:00 every morning, and in batches through the day.",
+            "ar": "اعتبارًا من الساعة 06:00 كل صباح، وعلى دفعات خلال اليوم."
           }
         },
         {
+          "question": {
+            "tr": "Kahvaltı servisi var mı?",
+            "en": "Do you serve breakfast?",
+            "ar": "هل تقدمون وجبة الفطور؟"
+          },
+          "answer": {
+            "tr": "Evet; sabah saatlerinde sıcak kahvaltı tabakları sunulur.",
+            "en": "Yes; hot breakfast plates are served in the morning.",
+            "ar": "نعم؛ تُقدَّم أطباق فطور ساخنة في الصباح."
+          },
           "soru": {
-            "tr": "Sitedeki görseller ve veriler gerçek midir?",
-            "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "tr": "Kahvaltı servisi var mı?",
+            "en": "Do you serve breakfast?",
+            "ar": "هل تقدمون وجبة الفطور؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
-            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
-            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+            "tr": "Evet; sabah saatlerinde sıcak kahvaltı tabakları sunulur.",
+            "en": "Yes; hot breakfast plates are served in the morning.",
+            "ar": "نعم؛ تُقدَّم أطباق فطور ساخنة في الصباح."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve bilgiler gerçek mi?",
+            "en": "Are the images and information on the site real?",
+            "ar": "هل الصور والمعلومات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; görseller temsilî, ad, rakam ve kişiler kurgusaldır.",
+            "en": "No; images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
+          },
           "soru": {
-            "tr": "Vegansız ürün var mı?",
-            "en": "Is there a vegan product?",
-            "ar": "هل يوجد منتج نباتي?"
+            "tr": "Sitedeki görseller ve bilgiler gerçek mi?",
+            "en": "Are the images and information on the site real?",
+            "ar": "هل الصور والمعلومات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Menüde bitkisel seçenekler mevcuttur; detay demo metninde.",
-            "en": "Vegetarian options are in the menu; details are in the demo text.",
-            "ar": "خيارات نباتية في القائمة؛ التفاصيل في النص التجريبي."
+            "tr": "Hayır; görseller temsilî, ad, rakam ve kişiler kurgusaldır.",
+            "en": "No; images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
           }
         }
       ],
@@ -2406,14 +2457,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "18px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Toplu sipariş isteyin",
+          "en": "Request a bulk order",
+          "ar": "اطلب طلبًا جماعيًا"
         },
         "description": {
-          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
-          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "tr": "Ürün ve adedi yazın; iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
+          "en": "Tell us the products and quantities; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
+          "ar": "اكتب المنتجات والكميات ونردّ خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا تُحفظ أي بيانات."
         },
         "panelTitle": {
           "tr": "Altın Baget",
@@ -2421,14 +2472,14 @@
           "ar": "Altın Baget"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metin ve rakamlar kurgusaldır.",
+          "en": "Images are representative; text and figures are fictional.",
+          "ar": "الصور تمثيلية والنصوص والأرقام افتراضية."
         },
         "address": {
           "tr": "Fırın Sokağı No: 5, Şahinbey, Gaziantep (kurgusal adres)",
-          "en": "5 Firin Sogagi, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع الفرن رقم 5، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "en": "5 Firin Sokagi, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع الفرن رقم 5، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 024 04 04",
         "whatsapp": "903420240404",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Toplu sipariş",
+              "en": "Bulk order",
+              "ar": "طلب جماعي"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Pasta ve tatlı",
+              "en": "Cakes and sweets",
+              "ar": "كعك وحلويات"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Kahvaltı servisi",
+              "en": "Breakfast service",
+              "ar": "خدمة الفطور"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,33 +2691,33 @@
           "ar": "Altın Baget"
         },
         "description": {
-          "tr": "Altın Baget 2012den beri sıcak ekmek ve tatlı pişirir. Bu bir demo sayfasıdır; menü ve fiyat verileri kurgusaldır.",
-          "en": "Altın Baget has baked hot bread and pastry since 2012. This is a demo page and the menu and price data are fictional.",
-          "ar": "يخبز ألتين باجت خبزًا وحلا ساخنًا منذ عام 2012. هذه صفحة تجريبية وبيانات القائمة والأسعار افتراضية."
+          "tr": "Altın Baget, 2012’den beri Gaziantep’te ekmek, baklava ve pasta pişirir. Bu sayfa demodur; ad ve rakamlar kurgusaldır.",
+          "en": "Altın Baget has baked bread, baklava and pastries in Gaziantep since 2012. This page is a demo; names and figures are fictional.",
+          "ar": "تخبز ألتين باغيت الخبز والبقلاوة والحلويات في غازي عنتاب منذ عام 2012. هذه الصفحة تجريبية والأسماء والأرقام افتراضية."
         },
         "name2": {
-          "tr": "Tek fırın",
-          "en": "One oven",
-          "ar": "فرن واحد"
+          "tr": "Her gün taze",
+          "en": "Fresh every day",
+          "ar": "طازج كل يوم"
         },
         "spot2": {
-          "tr": "Tüm ürünler aynı fırından çıkar.",
-          "en": "All products come from the same oven.",
-          "ar": "كل المنتجات من فرن واحد."
+          "tr": "Hamur her gece yoğrulur, ekmek sabah pişer.",
+          "en": "Dough is kneaded every night and bread is baked in the morning.",
+          "ar": "يُعجن العجين كل ليلة ويُخبز الخبز في الصباح."
         },
-        "icon2": "fireplace",
+        "icon2": "bakery_dining",
         "name3": {
-          "tr": "Sabah rutini",
-          "en": "Morning routine",
-          "ar": "روتين الصباح"
+          "tr": "Toplu sipariş",
+          "en": "Bulk orders",
+          "ar": "طلبات جماعية"
         },
         "spot3": {
-          "tr": "06:00te fırın; 21:00a kadar servis.",
-          "en": "Oven at 06:00; service until 21:00.",
-          "ar": "الفرن عند 06:00 والخدمة حتى 21:00."
+          "tr": "Etkinlik ve işyerleri için önceden hazırlanan siparişler.",
+          "en": "Orders prepared in advance for events and workplaces.",
+          "ar": "طلبات تُجهَّز مسبقًا للفعاليات وأماكن العمل."
         },
-        "icon3": "alarm",
-        "img": "gida-urun-pekmez.webp",
+        "icon3": "shopping_basket",
+        "img": "gida-tarif-1.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
@@ -2738,8 +2790,8 @@
         "email": "bilgi@altinbaget.example",
         "address": {
           "tr": "Fırın Sokağı No: 5, Şahinbey, Gaziantep (kurgusal adres)",
-          "en": "5 Firin Sogagi, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع الفرن رقم 5، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "en": "5 Firin Sokagi, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع الفرن رقم 5، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "mapsUrl": "",
         "waMessage": {
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Her gün 06:00 – 21:00",
+          "en": "Every day 06:00 – 21:00",
+          "ar": "كل يوم 06:00 – 21:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2847,9 +2899,9 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "18px",
         "title": {
-          "tr": "Sipariş ve toplu talepler",
-          "en": "Orders and bulk requests",
-          "ar": "الطلبات والطلبات الجماعية"
+          "tr": "Toplu sipariş verin",
+          "en": "Place a bulk order",
+          "ar": "قدّم طلبًا جماعيًا"
         },
         "text": {
           "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
@@ -2893,7 +2945,7 @@
         "waMessage": {
           "tr": "Merhaba, Altın Baget ile iletişime geçmek istiyorum.",
           "en": "Hello, I would like to get in touch with Altın Baget.",
-          "ar": "مرحبًا، أودّ التواصل مع Altın Baget."
+          "ar": "مرحبًا، أودّ التواصل مع ألتين باغيت."
         },
         "img": "",
         "alt": {
@@ -2951,7 +3003,7 @@
         "about": {
           "tr": "Altın Baget demo temadır; içerik kurgusaldır.",
           "en": "Altın Baget is a demo theme; the content is fictional.",
-          "ar": "قالب عرض تجريبي (Altın Baget)؛ المحتوى افتراضي."
+          "ar": "ألتين باغيت قالب تجريبي؛ المحتوى افتراضي."
         },
         "nlShow": true,
         "nlGonderim": "mailto",
@@ -3055,8 +3107,8 @@
         "hours": [],
         "address": {
           "tr": "Fırın Sokağı No: 5, Şahinbey, Gaziantep (kurgusal adres)",
-          "en": "5 Firin Sogagi, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع الفرن رقم 5، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "en": "5 Firin Sokagi, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع الفرن رقم 5، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 024 04 04",
         "email": "bilgi@altinbaget.example",

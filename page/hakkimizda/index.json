@@ -21,9 +21,9 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Sıcak ekmek ve tatlı fırını.",
-    "en": "Hot bread and pastry oven.",
-    "ar": "فرن خبز وحلا ساخن."
+    "tr": "Ekmek, baklava ve pasta fırını.",
+    "en": "A bakery for bread, baklava and pastries.",
+    "ar": "مخبز للخبز والبقلاوة والحلويات."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-05T23:44:27.860Z",
+  "update": "2026-11-12T07:35:11.772Z",
   "date": "2026-10-30"
 }

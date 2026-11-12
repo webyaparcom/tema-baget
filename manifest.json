@@ -1,7 +1,7 @@
 {
   "name": "Altın Baget",
   "short_name": "Altın Baget",
-  "description": "Sıcak ekmek ve tatlı fırını; görseller temsilîdir.",
+  "description": "Taze ekmek, baklava ve pasta; sabah kahvaltısı ve toplu sipariş. Görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",
