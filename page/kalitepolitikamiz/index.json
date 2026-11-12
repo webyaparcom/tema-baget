@@ -27,9 +27,9 @@
   "index": 2,
   "url": "",
   "text": {
-    "tr": "<h2>Kalite Politikamız</h2>\n<p>Günlük üretim; tazelik kontrolü kayıtla.</p>",
-    "en": "<h2>Our quality policy</h2>\n<p>Daily production; freshness control with a record.</p>",
-    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>إنتاج يومي؛ ضبط الطزاجة بالسجل.</p>"
+    "tr": "<h2>Kalite Politikamız</h2>\n<p>Günlük üretim, hijyen kontrolü ve taze teslim esastır.</p>",
+    "en": "<h2>Our quality policy</h2>\n<p>Daily production, hygiene checks and fresh delivery come first.</p>",
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>الإنتاج اليومي وفحص النظافة والتسليم الطازج هي الأساس.</p>"
   },
   "title": {
     "tr": "Kalite Politikamız",
@@ -37,7 +37,7 @@
     "ar": "سياسة الجودة"
   },
   "date": "2026-11-05T18:57:18.887Z",
-  "update": "2026-11-05T23:44:27.881Z",
+  "update": "2026-11-12T07:35:11.797Z",
   "sablonIzi": "acedf6b7c400faec",
   "sablonIziDil": {
     "en": "587042c99dce90ca",

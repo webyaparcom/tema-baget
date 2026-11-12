@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Sıcak ekmek ve tatlı fırını; görseller temsilîdir.",
-    "en": "Hot bread and pastry oven; images are representative.",
-    "ar": "فرن خبز وحلا ساخن؛ الصور تمثيلية."
+    "tr": "Taze ekmek, baklava ve pasta; sabah kahvaltısı ve toplu sipariş. Görseller temsilîdir.",
+    "en": "Fresh bread, baklava and pastries, plus breakfast and bulk orders. Images are representative.",
+    "ar": "خبز طازج وبقلاوة وحلويات، مع فطور صباحي وطلبات جماعية؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "baget, ekmek fırını, hamur işi",
-    "en": "baguette, bread oven, pastry",
-    "ar": "باجت، فرن خبز، منتجات مخبز"
+    "tr": "fırın, taze ekmek, baklava, pasta, kahvaltı",
+    "en": "bakery, fresh bread, baklava, pastry, breakfast",
+    "ar": "مخبز، خبز طازج، بقلاوة، حلويات، فطور"
   },
   "category": "Kurumsal",
   "name": "Altın Baget",

@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Hamur işi, tatlı ve sıcak",
-        "en": "Pastry, sweet and hot",
-        "ar": "مخبوزات وحلويات ومخبوزات ساخنة"
+        "tr": "Ekmek, tatlı ve sıcak servis.",
+        "en": "Bread, pastries and hot service.",
+        "ar": "خبز وحلويات وخدمة ساخنة."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Sıcak ekmek ve tatlı fırını.",
-        "en": "Hot bread and pastry oven.",
-        "ar": "فرن خبز وحلا ساخن."
+        "tr": "Ekmek, baklava ve pasta fırını.",
+        "en": "A bakery for bread, baklava and pastries.",
+        "ar": "مخبز للخبز والبقلاوة والحلويات."
       }
     },
     {
